@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+#sub-title {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+.img {
+    margin-top: -40px;
+    margin-right: 50px;
+    float: right;
+    width: 15%;
+    height: 30px;
+}
+
+.card-group {
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.card img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5.0px solid grey;
+}
